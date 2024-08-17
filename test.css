@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0px;
+    background-color: lightblue;
+}
+
+.form-container{
+    background-color: antiquewhite;
+    width: 500px;
+    padding: 20px;
+    border: 4px lightgreen solid;
+    border-radius: 5px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"]{
+    height: 35px;
+}
+
+.form-group textarea {
+    resize: none ;
+}
